@@ -1,3 +1,20 @@
 ## Download the Dataset from the following link:
 
 https://drive.google.com/file/d/1CFI7uYoWzEFcZ9YWODPBhLo7IOKysNGC/view?usp=sharing
+
+***Data Dictionary:***
+
+there are two csv files given
+
+
+**train_1.csv : **
+
+In the csv file, each row corresponds to a particular article and each column correspond to a particular date. The values are the number of visits in that date.
+
+
+**Exog_Campaign_eng : **
+
+this file contaings data for the dates which had a campaign or significant event that could affect the views for that day.
+the data is just for pages in english.
+
+there is a 1 for dates with campaign and 0 for remaining dates. It is to be treated as an exogenous variable for models when training and forecasting data for pages in english

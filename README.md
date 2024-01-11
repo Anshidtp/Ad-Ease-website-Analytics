@@ -8,6 +8,10 @@ The training dataset consists of approximately 145k time series. Each of these t
 For each time series, you are provided the name of the article as well as the type of traffic that this time series represent (all, mobile, desktop, spider). You may use this metadata and any other publicly available data to make predictions. Unfortunately, the data source for this dataset does not distinguish between traffic values of zero and missing values. A missing value may mean the traffic was zero or that the data is not available for that day.
 
 
+### Concepts Used:
+     Exploratory data analysis
+     Time Series forecasting- ARIMA, SARIMAX, and FB Prophet
+
 ### Steps :
 
     1. We will start by loading the data and handling the values.
